@@ -2,6 +2,11 @@
 
 Clustering tweets by utlizing Jaccard Distance metric and K-means clustering algorithm.
 
+## Team Members
+
+- Ankita Patil
+- Abhilash Gudasi
+
 <hr>
 
 ## Approach
