@@ -12,8 +12,8 @@ Clustering tweets by utlizing Jaccard Distance metric and K-means clustering alg
 ## Input to K-means algorithm
 
 1. The number of clusters K (default K=25)
-2. A real world dataset sampled from Twitter during the Boston Marathon Bombing event in April 2013 that contains 251 tweets. The tweet dataset is in JSON format and can be found <a href="">here</a>
-3. The list of initial centroids can be found <a href="">here</a>
+2. A real world dataset sampled from Twitter during the Boston Marathon Bombing event in April 2013 that contains 251 tweets. The tweet dataset is in JSON format and can be found <a href="https://github.com/patilankita79/TweetsClusteringUsing_KMeans/blob/master/TweetClustering/Tweets.json">here</a>
+3. The list of initial centroids can be found <a href="https://github.com/patilankita79/TweetsClusteringUsing_KMeans/blob/master/TweetClustering/InitialSeeds.txt">here</a>
 
 ## Compile and Run Instructions:
 
