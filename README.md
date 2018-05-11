@@ -2,7 +2,7 @@
 
 Clustering tweets by utlizing Jaccard Distance metric and K-means clustering algorithm.
 
-<br>
+<hr>
 
 ## Approach
 
