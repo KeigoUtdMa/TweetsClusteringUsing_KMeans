@@ -35,6 +35,7 @@ with open(initialSeedsFile) as tweet_centroid:
     else:
         print ("[Error]: Initial seed file contains values not equal to the clusters entered")
         sys.exit(1)
+print(centroids)
 
 
 
@@ -50,7 +51,6 @@ Initializing a dictionary with key as tweet Id and values with corresponding tex
 tweetsJsonData = {}
 with open(tweetsDataFile) as tweetJson:
     readJson(tweetJson)
-
 """
 This function return the count of unique words in each tweet
 """
@@ -138,7 +138,6 @@ def recalculateCentroid(cluster, tweet_data):
             min_distance = mean_distance
             centroidId = tweet
     return centroidId
-
 """
 Function to calculate the squared sum of errors(SSE)
 """
